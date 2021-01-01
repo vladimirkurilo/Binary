@@ -1,0 +1,320 @@
+.main
+    background-image: url(../img/BG-Header.png)
+    &_hamburger
+        display: none
+    &_logo
+        padding-top: 150px
+        text-align: center
+    &_title
+        margin-top: 159px
+        color: #ffffff
+        font-size: 34px
+        line-height: 40px
+        text-align: center
+        text-transform: uppercase
+        font-weight: 900
+        letter-spacing: 5.43px
+    &_subtitle
+        font-size: 26px
+        font-weight: 400
+        letter-spacing: 4.15px
+        color: #ffffff
+        text-align: center
+    &_swipe
+        display: block
+        color: #ffffff
+        text-align: center
+        margin-top: 75px
+        cursor: pointer
+        padding-bottom: 137px
+    &_divider
+        width: 105px
+        height: 2px
+        background-color: #ffffff
+        margin: 0 auto
+        margin-top: 49px
+        margin-bottom: 190px
+
+.button
+    display: block
+    width: 182px
+    height: 47px
+    margin: 0 auto
+    background-color: transparent
+    border: 1px solid white
+    color: #ffffff
+    font-size: 16px
+    font-weight: 400
+    text-align: center
+    text-transform: uppercase
+    &:hover
+        background-color: #ffffff
+        color: #000000
+        transition: .3s
+
+.about
+    background-color: #ffffff
+    padding: 0 0 95px 0
+    &_subtitle
+        color: #868585
+        font-size: 14px
+        font-weight: 300
+        line-height: 25.89px
+        text-align: center
+        margin-bottom: 69px
+
+.menu
+    display: flex
+    flex-direction: row
+    justify-content: center
+    list-style-type: none
+    margin-bottom: 125px
+    &_link
+        color: #3c3c3c
+        font-size: 15px
+        font-weight: 400
+        &:hover
+            text-decoration: none
+            color: #ada074 
+             
+            
+    &_item
+        margin-right: 50px
+        margin-top: 20px
+        &:hover
+            -webkit-transform: scale(1.1)
+            -ms-transform: scale(1.1)
+            transform: scale(1.1)
+            border: none
+            transition-duration: .2s
+
+.title
+    &__head
+        color: #000000
+        font-size: 34px
+        font-weight: 700
+        text-align: center
+        text-transform: uppercase
+        letter-spacing: 8.95px
+
+.divider
+    width: 81px
+    height: 1px
+    background-color: #000000
+    margin: 0 auto
+    margin-top: 35px
+    margin-bottom: 37px
+
+.block
+    &__img
+        text-align: center
+    &__title
+        color: #000000
+        font-size: 22px
+        font-weight: 400
+        text-align: center
+        text-transform: uppercase
+        margin-top: 41px
+        margin-bottom: 36px
+    &__subtitle
+        color: #868585
+        font-size: 14px
+        font-weight: 300
+        line-height: 26px
+        text-align: center
+
+.portfolio
+    background-color: #f3f3f3
+    padding: 107px 0 62px 0
+    &__tabs
+        margin-top: 50px
+        list-style-type: none
+        display: flex
+        flex-direction: row
+        justify-content: center
+        margin-bottom: 136px
+    &__tab
+        margin-right: 45px
+        color: #3c3c3c
+        font-size: 15px
+        font-weight: 400
+        cursor: pointer
+        &:hover
+            -webkit-transform: scale(1.2)
+            -ms-transform: scale(1.2)
+            transform: scale(1.2)
+            border: none
+            transition-duration: .2s
+        &_active
+            color: #ada074
+            
+    &__content
+        justify-content: space-between
+        flex-wrap: wrap
+        display: none
+        &_active
+            display: flex
+        &__item
+            width: 538px
+            height: 365px
+            background-color: #eaeaea
+            margin-bottom: 16px
+            margin-right: 27px
+            margin: 0 auto
+            margin-bottom: 16px
+            font-size: 40px
+            padding-top: 135px
+            padding-left: 223px
+            &:hover
+                -webkit-transform: scale(1.1)
+                -ms-transform: scale(1.1)
+                transform: scale(1.1)
+                border: none
+                transition-duration: .2s
+            &:last-child
+                margin-bottom: 64px
+    &_button
+        width: 182px
+        height: 47px
+        display: block
+        margin: 0 auto
+        background-color: transparent
+        border: 1px solid black
+        color: #000000
+        font-size: 16px
+        font-weight: 400
+        &:hover
+            background-color: #000000
+            color: #ffffff
+
+
+.partners
+    background-image: url(../img/BG-Header_short.png)   
+    height: 388px
+    &_title
+        padding-top: 100px
+        letter-spacing: 1.8px
+        color: #ffffff
+        font-size: 30px
+        font-weight: 300
+        text-align: center
+    &_logo
+        display: flex
+        flex-direction: row
+        justify-content: center
+        margin-top: 95px
+        &_icon
+            margin-right: 109px
+            &:last-child
+                margin-right: 0
+
+.contact
+    padding: 180px 0 100px 0
+    &__block
+        margin-top: 120px
+        display: flex
+        flex-direction: row
+        justify-content: center
+    &__form
+        margin-left: 87px
+        display: flex
+        flex-wrap: wrap
+    &__name
+        color: #000000
+        font-size: 14px
+        font-weight: 700
+        letter-spacing: 0.84px
+        margin-bottom: 18px
+    &__box
+        input
+            width: 161px
+            height: 35px
+            background-color: #f8f7f7
+            border: none
+            border-top: 1px solid black
+            margin-right: 60px
+    &__message
+        margin-top: 70px
+        input
+            width: 383px
+            height: 118px
+            background-color: #f8f7f7
+            border: none
+            border-top: 1px solid black
+    &__more
+        margin-right: 280px
+    &__subtitle
+        font-weight: 300
+        font-size: 14px
+        line-height: 26px
+        width: 252px
+        height: 65px
+    &__title
+        font-weight: 700
+        margin-top: 40px
+        margin-bottom: 24px
+    &__icons
+        margin-bottom: 12px
+    &__link
+        margin-right: 12px
+    &__mail
+        span
+            font-weight: 700
+    &__button
+        width: 55px
+        height: 30px
+        margin-top: 40px
+        margin-left: 330px
+        color: #000000
+        font-size: 14px
+        font-weight: 700
+        border: none
+        background-color: transparent
+        &:hover
+            -webkit-transform: scale(1.2)
+            -ms-transform: scale(1.2)
+            transform: scale(1.2)
+            border: none
+            transition-duration: .2s
+
+.footer
+    height: 240px
+    background-color: #3c3c3c
+    padding: 48px 0 49px 0
+    &_logo
+        text-align: center
+        margin-bottom: 41px
+    &_nav
+        display: flex
+        flex-direction: row
+        justify-content: center
+        list-style-type: none
+    &_item
+        color: #a4a4a4
+        font-size: 14px
+        font-weight: 400
+        margin-right: 21px
+        &:hover
+            -webkit-transform: scale(1.2)
+            -ms-transform: scale(1.2)
+            transform: scale(1.2)
+            border: none
+            transition-duration: .2s
+    &_link
+        color: #a4a4a4
+        &:hover
+            color: #a4a4a4
+            text-decoration: none
+
+.pageup 
+    display: none
+    position: fixed
+    bottom: 40px
+    right: 40px
+    width: 40px
+    height: 40px
+    img 
+        width: 100%
+            
+            
+            

@@ -1,0 +1,133 @@
+@media (max-width: 991px)
+    .contact
+        padding-top: 100px
+        &__block
+            flex-direction: column
+        &__message
+            margin-top: 30px
+        &__more
+            margin: 0 auto
+    
+@media (max-width: 767px)
+    .menu
+        margin-bottom: 100px
+        &_link
+            font-size: 14px
+
+    .portfolio
+        &__content
+            &__item
+                padding-top: 33%
+                padding-left: 40%
+
+
+    .contact
+        padding-top: 100px
+        &__block
+            flex-direction: column
+        &__message
+            margin-top: 30px
+        &__more
+            margin: 0 auto
+
+@media (max-width: 575px)
+    .main
+        &_swipe
+            padding-bottom: 58px
+    .menu
+        &_item
+            margin-right: 25px
+
+    .contact
+        &__block
+            margin-top: 60px
+        &__form
+            margin-left: 0
+
+    .partners
+        &_logo
+            &_icon
+                margin-right: 30px
+
+    .block
+        margin-bottom: 50px
+
+    .about
+        padding-bottom: 20px
+
+@media (max-width: 376px)
+    .main
+        &_logo
+            padding-top: 80px
+        &_title
+            margin-top: 100px
+        &_divider
+            margin-bottom: 120px
+        &_hamburger
+            position: absolute
+            top: 0px
+            right: 50px
+            margin: 0
+        &_hamburger
+                display: block
+                transform: translateY(-50%)
+                width: 26px
+                height: 12px
+                margin: 65px 0 0 29px
+                span 
+                    display: block 
+                    height: 2px
+                    width: 100%
+                    background-color: #fff 
+                    margin-bottom: 2px
+                    transition: 0.5s all
+                &_active 
+                    span 
+                        margin-bottom: -2px 
+                        &:nth-child(1)
+                            transform: translateY(3px) rotate(-45deg)
+                        &:nth-child(2)
+                            display: none
+                        &:nth-child(3)
+                            transform: translateY(3px) rotate(45deg)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(255,255,255,0.9)
+        transition: 0.6s all
+        margin-top: 0px
+        z-index: 1
+        &_active 
+            left: 0
+        &_item 
+            padding-right: 0
+            border: none
+            margin: 10px 0      
+
+    .portfolio
+        &__content
+            &__item
+                padding-left: 32%
+
+    .partners
+        &_title
+            padding-top: 50px
+        &_logo
+            flex-wrap: wrap
+            &_icon
+                margin-right: 38px
+                margin-bottom: 17px  
+
+    .contact
+        &__message
+            input
+                width: 264px
+        &__button
+            margin-left: 210px
